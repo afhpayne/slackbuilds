@@ -20,3 +20,8 @@ xkbcommon: ERROR: couldn't find a Compose file for locale <your locale>
 You may need to open /etc/profile.d/lang.sh and uncomment UTF-8:
 # en_US is the Slackware default locale:
 export LANG=nl_NL.UTF-8
+
+Note 2:
+Starting with rofi version 1.7.6, the minimum glib version is 2.72
+and Slackware is currently at 2.70.3. So for now, rofi 1.7.5 is the
+highest release that will build.
